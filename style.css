@@ -6,7 +6,7 @@
     --verde: #e7ff0b6b; 
     --branco: #ffffff; 
     --botao-ativo: #ff6600; 
-    --botao-inativo: #5b1c96; 
+    --botao-inativo: #7f4dad; 
 }
 body {
     background-color: var(--cor-de-fundo); 
