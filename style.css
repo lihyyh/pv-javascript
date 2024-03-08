@@ -6,7 +6,7 @@
 --branco: #FFFFFF;
 --botao-ativo: #c6a2ff;
 --botao-inativo: rgba(136, 0, 226, 0.651);
---texto-fundo: rgba(108, 36, 223, 0.664);
+--texto-fundo: rgba(149, 75, 245, 0.664);
 }
 
 body {
@@ -68,7 +68,7 @@ background-color: var(--botao-ativo);
 border-bottom: 4px solid var(--verde);
 }
 .abas-texto{
-    background-color: var(--cor-de-fundo);
+    background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
@@ -77,4 +77,9 @@ border-bottom: 4px solid var(--verde);
 }
 .aba-conteudo{
     display:none;
+}
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    color: var(--verde);
+    text-transform: uppercase;
 }
