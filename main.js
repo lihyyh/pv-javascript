@@ -14,3 +14,6 @@ botoes[i].classList.add("ativo");
 textos[i].classList.add("ativo");
 }
 
+const contadores = document.querySelectorAll(".contador");
+
+
